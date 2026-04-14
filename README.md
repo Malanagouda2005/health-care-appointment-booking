@@ -100,8 +100,6 @@ npm start
 
 ---
 
-
-
 ---
 
 ## ⭐ Acknowledgements
@@ -109,4 +107,4 @@ npm start
 This project is developed as part of learning and internship practice.
 If you find this useful, please ⭐ the repository!
 
----
+---..
