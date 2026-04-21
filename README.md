@@ -1,110 +1,16 @@
-# 🏥 Healthcare Appointment Booking App
+# React + Vite
 
-A modern web application that allows patients to **book doctor appointments online**, manage schedules, and receive healthcare recommendations.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Project Overview
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-The **Healthcare Appointment Booking App** is designed to simplify the process of scheduling medical appointments. Users can easily search for doctors, select time slots, and manage bookings efficiently.
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🎯 Features
+## Expanding the ESLint configuration
 
-* 👨‍⚕️ Doctor Listing & Search
-* 📅 Appointment Booking System
-* ⏰ Time Slot Selection
-* 🔐 User Authentication (Login/Register)
-* 📋 Patient Dashboard
-* 💬 Notifications & Alerts
-* 📱 Fully Responsive Design
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* HTML5
-* CSS3
-* JavaScript
-* React.js
-
-### Backend (Optional / Future Scope)
-
-* Node.js
-* Express.js
-
-### Database (Optional / Future Scope)
-
-* MongoDB / MySQL
-
----
-
-## 📂 Project Structure
-
-```
-healthcare-app/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   └── App.js
-│
-├── package.json
-└── README.md
-```
-
----
-
----
-
-## ⚙️ Installation & Setup
-
-1. Clone the repository:
-
-```bash id="clone123"
-git clone https://github.com/your-username/healthcare-appointment-app.git
-```
-
-2. Navigate to the project folder:
-
-```bash id="cd123"
-cd healthcare-appointment-app
-```
-
-3. Install dependencies:
-
-```bash id="npm123"
-npm install
-```
-
-4. Start the development server:
-
-```bash id="run123"
-npm start
-```
-
----
-
-## 📌 Future Enhancements
-
-* 🧠 AI-based Disease Prediction
-* 📊 Health Reports & Analytics
-* 📞 Video Consultation Feature
-* 💳 Online Payment Integration
-* 🏥 Hospital Management Integration
-
----
-
----
-
-## ⭐ Acknowledgements
-
-This project is developed as part of learning and internship practice.
-If you find this useful, please ⭐ the repository!
-
----..
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
